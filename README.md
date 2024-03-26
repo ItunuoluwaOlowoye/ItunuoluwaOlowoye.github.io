@@ -1,6 +1,5 @@
-# Responsive Portfolio Clay Doe
+# Responsive Portfolio
 ## [Watch it on youtube](https://youtu.be/BS6blX035NM)
-### Responsive Portfolio Clay Doe
 
 - Responsive Personal Portfolio Website Using HTML CSS & JavaScript
 - Contains animations in the Home section.
@@ -16,5 +15,3 @@ Swiper: https://swiperjs.com/
 Gsap: https://greensock.com/
 
 💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/@Bedimcode)
-
-![preview img](/preview.png)

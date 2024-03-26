@@ -691,6 +691,58 @@ img{
   color: var(--first-color-light);
 }
 
+/*===== AFTER HOURS =====*/
+.after-hours__container {
+  width: 330px;
+  height: 300px;
+  perspective: 800px;
+}
+
+.after-hours__container:hover > .after-hours__card {
+  cursor: pointer;
+  transform: rotateY(-180deg);
+}
+
+.after-hours__card {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transition: transform 1500ms;
+  transform-style: preserve-3d;
+}
+
+.after-hours__front, .after-hours__back {
+  height: 100%;
+  width: 100%;
+  border-radius: .5rem;
+  box-shadow: 0 0 5px 2px rgba(47, 10, 13, .25);
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.after-hours__back {
+  background-color: var(--first-color-lighten);
+  color: var(--text-color);
+  font-size: var(--smaller-font-size);
+  padding: 10px;
+  transform: rotateY(-180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+.after-hours__toolkit{
+  margin-bottom: var(--mb-4);
+  font-style: italic;
+  font-size: var(--smaller-font-size);
+  justify-content: center;
+  align-items: center;
+  padding-left: 5px;
+  color: var(--text-color);
+}
+
 /*===== MEDIA QUERIES =====*/
 @media screen and (min-width: 576px){
   .home__img img{
