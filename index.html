@@ -1,218 +1,301 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
 
-        <!-- ===== SWIPER CSS ===== -->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        
-        <!-- ===== BOX ICONS ===== -->
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
 
-        <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="assets/css/styles.css">
+      <title>Itunuoluwa After Hours</title>
+   </head>
+   <body>
+      <section class="container">
+         <h2 class="container__title">Click an image for more details</h2>
 
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+         <div class="card__container">
+            <article>
+               <!-- CARD PRODUCT -->
+               <div class="card__product">
+                  <img src="assets/img/afterhours/avengers.jpg" alt="image" class="card__img">
+   
+                  <div>
+                     <h3 class="card__name">Marvel Cinematic Universe</h3>
+                  </div>
+               </div>
 
-        <title>After Hours</title>
-    </head>
+               <!-- POPUP MODAL -->
+               <div class="modal">
+                  <div class="modal__card">
+                     <i class="ri-close-large-line modal__close"></i>
 
-    <body>
-        <!--===== SCROLL TOP =====-->
-        <a href="#" class="scrolltop" id="scroll-top">
-            <i class='bx bx-chevron-up scrolltop__icon'></i>
-        </a>
-        
-        <!--===== HEADER =====-->
-        <header class="l-header" id="header">
-            <nav class="nav bd-container">
-                <a href="#" class="nav__logo">Itee</a>
+                     <div>
+                        <h3 class="modal__name">Marvel Cinematic Universe</h3>
+                        <p class="modal__info">
+                           I find it incredible that such an amazing universe existed within the walls of
+                           Stan Lee's mind. I am grateful that he shared it with the world, and grateful to
+                           Marvel Studios for consistently doing justice to every film.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </article>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
-                        <li class="nav__item"><a href="index.html#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="index.html#portfolio" class="nav__link ">Portfolio</a></li>
-                        <li class="nav__item"><a href="index.html#services" class="nav__link">Services</a></li>
-                        <li class="nav__item"><a href="index.html#contact" class="nav__link">Contact Me</a></li>
-                    </ul>
-                </div>
+            <article>
+               <!-- CARD PRODUCT -->
+               <div class="card__product">
+                  <img src="assets/img/afterhours/puzzle.jpg" alt="image" class="card__img">
+   
+                  <div>
+                     <h3 class="card__name">Jigsaw Puzzles</h3>
+                  </div>
+               </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+               <!-- POPUP MODAL -->
+               <div class="modal">
+                  <div class="modal__card">
+                     <i class="ri-close-large-line modal__close"></i>
 
-        <main class="l-main">
-            <section class="section bd-container portfolio__container bd-grid" id="cards">
-                <!--===== MARVEL =====-->
-                <div class="after-hours__container">
-                    <div class="after-hours__card">
-                        <img src="assets/img/afterhours/avengers.jpg" class="after-hours__front">
-                        <p class="after-hours__front after-hours__toolkit">Click or hover to see details</p>
-                        <div class="after-hours__back">
-                            <h1>Marvel Cinematic Universe</h1>
-                            <p>
-                                I find it incredible that such an amazing universe existed within the walls of
-                                Stan Lee's mind. I am grateful that he shared it with the world, and grateful to
-                                Marvel Studios for consistently doing justice to every film.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                     <div>
+                        <h3 class="modal__name">Jigsaw Puzzles</h3>
+                        <p class="modal__info">
+                           Grandpa Oluboyede, my maternal granddad's best friend, got me my first jigsaw
+                           puzzle set on my 5th birthday. It was a 50-piece puzzle with words and their opposites written on it.
+                           That was when I became a puzzle nerd. My stepmum also gifted me puzzles when
+                           I visited her and they got progressively harder as I grew older, from 100-piece puzzles
+                           to 250, 500, 750, and finally 1000. I love them and imagine to have a library with puzzle sets one day.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </article>
 
-                <!--===== JIGSAW PUZZLES =====-->
-                <div class="after-hours__container">
-                    <div class="after-hours__card">
-                        <img src="assets/img/afterhours/puzzle.jpg" class="after-hours__front">
-                        <p class="after-hours__front after-hours__toolkit">Click or hover to see details</p>
-                        <div class="after-hours__back">
-                            <h1>Jigsaw Puzzles</h1>
-                            <p>
-                                Grandpa Oluboyede, my maternal granddad's best friend, got me my first jigsaw
-                                puzzle set on my 5th birthday. It was a 50-piece puzzle with words and their opposites written on it.
-                                That was when I became a puzzle nerd. My stepmum also gifted me puzzles when
-                                I visited her and they got progressively harder as I grew older, from 100-piece puzzles
-                                to 250, 500, 750, and finally 1000. I love them and imagine to have a library with puzzle sets one day.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            <article>
+               <!-- CARD PRODUCT -->
+               <div class="card__product">
+                  <img src="assets/img/afterhours/chef.jpg" alt="image" class="card__img">
+   
+                  <div>
+                     <h3 class="card__name">MasterChef</h3>
+                  </div>
+               </div>
 
-                <!--===== MASTERCHEF =====-->
-                <div class="after-hours__container">
-                    <div class="after-hours__card">
-                        <img src="assets/img/afterhours/chef.jpg" class="after-hours__front">
-                        <p class="after-hours__front after-hours__toolkit">Click or hover to see details</p>
-                        <div class="after-hours__back">
-                            <h1>MasterChef</h1>
-                            <p>
-                                One of my favorite things to do when I'm at Aunt Susan and Uncle Ayo's place is to
-                                watch MasterChef on DsTV with them. My favorite contestants are Luca Manfè, because he
-                                had such an amazing personality (cue, the butter episode) and Reynold Poernomo, the KING of desserts
-                            </p>
-                        </div>
-                    </div>
-                </div>
+               <!-- POPUP MODAL -->
+               <div class="modal">
+                  <div class="modal__card">
+                     <i class="ri-close-large-line modal__close"></i>
 
-                <!--===== THE VOICE =====-->
-                <div class="after-hours__container">
-                    <div class="after-hours__card">
-                        <img src="assets/img/afterhours/voice.jpg" class="after-hours__front">
-                        <p class="after-hours__front after-hours__toolkit">Click or hover to see details</p>
-                        <div class="after-hours__back">
-                            <h1>The Voice</h1>
-                            <p>
-                                I LOVE music. I can't sing but learning how to play the strings rock-and-roll style is definitely
-                                in my retirement bucket list. It's a joy for me to enjoy the talent of normal people who have
-                                incredible singing talents. I couldn't possibly pick a favorite contestant but
-                                two memorable people are Jordan Smith (USA) and Chike (NG). My favorite franchise,
-                                though, is The Voice Australia. They have amazing talent, the judges are incredible,
-                                the production is top-notch, and the winners are undisputable.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                     <div>
+                        <h3 class="modal__name">MasterChef</h3>
+                        <p class="modal__info">
+                           One of my favorite things to do when I'm at Aunt Susan and Uncle Ayo's place is to
+                           watch MasterChef on DsTV with them. My favorite contestants are Luca Manfè, because he
+                           had such an amazing personality (cue, the butter episode) and Reynold Poernomo, the KING of desserts
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </article>
 
-                <!--===== GOT TALENT =====-->
-                <div class="after-hours__container">
-                    <div class="after-hours__card">
-                        <img src="assets/img/afterhours/gottalent.jpg" class="after-hours__front">
-                        <p class="after-hours__front after-hours__toolkit">Click or hover to see details</p>
-                        <div class="after-hours__back">
-                            <h1>The Got Talent Franchise</h1>
-                            <p>
-                                One thing I love more than hearing amazing singers? Watching people with the most
-                                insane of talents. The first season of America's Got Talent: Fantasy League was like
-                                a dream come true for me because the nostalgia of seeing most of my favorite acts was
-                                amazing. Sofie Dossi, the contortionist; Aidan Bryant, same; VUnbeatable, the Indian dance
-                                crew; Kseniya, the sand artist...I could go on and on. Literal chills.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            <article>
+               <!-- CARD PRODUCT -->
+               <div class="card__product">
+                  <img src="assets/img/afterhours/gottalent.jpg" alt="image" class="card__img">
+   
+                  <div>
+                     <h3 class="card__name">The Got Talent Franchise</h3>
+                  </div>
+               </div>
 
-                <!--===== SHAWARMA =====-->
-                <div class="after-hours__container">
-                    <div class="after-hours__card">
-                        <img src="assets/img/afterhours/shawarma.jpg" class="after-hours__front">
-                        <p class="after-hours__front after-hours__toolkit">Click or hover to see details</p>
-                        <div class="after-hours__back">
-                            <h1>Shawarma</h1>
-                            <p>
-                                I hated it the first time I tried it. An ex-coworker, Mr Sholz, made me one
-                                in 2021 that changed my perception. Now, it's one of my favorite things to eat
-                            </p>
-                        </div>
-                    </div>
-                </div>
+               <!-- POPUP MODAL -->
+               <div class="modal">
+                  <div class="modal__card">
+                     <i class="ri-close-large-line modal__close"></i>
 
-                <!--===== FRANCE =====-->
-                <div class="after-hours__container">
-                    <div class="after-hours__card">
-                        <img src="assets/img/afterhours/france.jpg" class="after-hours__front">
-                        <p class="after-hours__front after-hours__toolkit">Click or hover to see details</p>
-                        <div class="after-hours__back">
-                            <h1>France</h1>
-                            <p>
-                                Everyone who really knows me is probably wondering why this wasn't at the top
-                                of the list because I never shut up about France. It's my dream country - the
-                                art, the romance, the culture - I can't wait to eventually live there
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                     <div>
+                        <h3 class="modal__name">The Got Talent Franchise</h3>
+                        <p class="modal__info">
+                           One thing I love more than hearing amazing singers? Watching people with the most
+                           insane of talents. The first season of America's Got Talent: Fantasy League was like
+                           a dream come true for me because the nostalgia of seeing most of my favorite acts was
+                           amazing. Sofie Dossi, the contortionist; Aidan Bryant, same; VUnbeatable, the Indian dance
+                           crew; Kseniya, the sand artist...I could go on and on. Literal chills. I'm learning how to
+                           dance LA Salsa. Will I get to Got Talent level is another question entirely.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </article>
 
-                <!--===== FAST CARS =====-->
-                <div class="after-hours__container">
-                    <div class="after-hours__card">
-                        <img src="assets/img/afterhours/car.jpg" class="after-hours__front">
-                        <p class="after-hours__front after-hours__toolkit">Click or hover to see details</p>
-                        <div class="after-hours__back">
-                            <h1>Cars</h1>
-                            <p>
-                                I couldn't possibly tell you the specs of the latest Porsche but Uncle Akin made
-                                me like being driven in a fast car. I like to imagine sitting in the passenger seat of a car
-                                beside the one I love, driving at more than 140km/h. Road trips are also in my bucket list, although
-                                it's unsafe in my current clime.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            <article>
+               <!-- CARD PRODUCT -->
+               <div class="card__product">
+                  <img src="assets/img/afterhours/shawarma.jpg" alt="image" class="card__img">
+   
+                  <div>
+                     <h3 class="card__name">Shawarma</h3>
+                  </div>
+               </div>
 
-                <!--===== GAMES =====-->
-                <div class="after-hours__container">
-                    <div class="after-hours__card">
-                        <img src="assets/img/afterhours/games.jpg" class="after-hours__front">
-                        <p class="after-hours__front after-hours__toolkit">Click or hover to see details</p>
-                        <div class="after-hours__back">
-                            <h1>Action/Adventure/Simulation Games</h1>
-                            <p>
-                                I haven't done this in a while but I used to love playing PC games. GTA Vice City,
-                                The Sims, Asphalt, Need for Speed, Mafia, to name a few. I still like them and hope to get back in the game soon.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+               <!-- POPUP MODAL -->
+               <div class="modal">
+                  <div class="modal__card">
+                     <i class="ri-close-large-line modal__close"></i>
 
-                <!--===== MEAT =====-->
-                <div class="after-hours__container">
-                    <div class="after-hours__card">
-                        <img src="assets/img/afterhours/meat.jpg" class="after-hours__front">
-                        <p class="after-hours__front after-hours__toolkit">Click or hover to see details</p>
-                        <div class="after-hours__back">
-                            <h1>Meat</h1>
-                            <p>
-                                Beef, chicken, turkey, bush meat, suya, kilishi. Bring me any of these
-                                in unreasonably large amounts and that's the fastest way to become my best friend.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-    </body>
+                     <div>
+                        <h3 class="modal__name">Shawarma</h3>
+                        <p class="modal__info">
+                           I hated it the first time I tried it. An ex-coworker, Mr Sholz, made me one
+                           in 2021 that changed my perception. Now, it's one of my favorite things to eat
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </article>
+            
+            <article>
+               <!-- CARD PRODUCT -->
+               <div class="card__product">
+                  <img src="assets/img/afterhours/car.jpg" alt="image" class="card__img">
+   
+                  <div>
+                     <h3 class="card__name">Cars</h3>
+                  </div>
+               </div>
 
+               <!-- POPUP MODAL -->
+               <div class="modal">
+                  <div class="modal__card">
+                     <i class="ri-close-large-line modal__close"></i>
+
+                     <div>
+                        <h3 class="modal__name">Cars</h3>
+                        <p class="modal__info">
+                           I couldn't possibly tell you the specs of the latest Porsche but Uncle Akin made
+                           me like being driven in a fast car. I like to imagine sitting in the passenger seat of a car
+                           beside the one I love, driving at more than 140km/h. Road trips are also on my bucket list.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </article>
+
+            <article>
+               <!-- CARD PRODUCT -->
+               <div class="card__product">
+                  <img src="assets/img/afterhours/games.jpg" alt="image" class="card__img">
+   
+                  <div>
+                     <h3 class="card__name">Video Games</h3>
+                  </div>
+               </div>
+
+               <!-- POPUP MODAL -->
+               <div class="modal">
+                  <div class="modal__card">
+                     <i class="ri-close-large-line modal__close"></i>
+
+                     <div>
+                        <h3 class="modal__name">Video Games</h3>
+                        <p class="modal__info">
+                           I haven't done this in a while but I used to love playing PC games. GTA Vice City,
+                           The Sims, Asphalt, Need for Speed, Mafia, to name a few. I still like them and hope to get back in the game soon.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </article>
+
+            <article>
+               <!-- CARD PRODUCT -->
+               <div class="card__product">
+                  <img src="assets/img/afterhours/voice.jpg" alt="image" class="card__img">
+   
+                  <div>
+                     <h3 class="card__name">The Voice</h3>
+                  </div>
+               </div>
+
+               <!-- POPUP MODAL -->
+               <div class="modal">
+                  <div class="modal__card">
+                     <i class="ri-close-large-line modal__close"></i>
+
+                     <div>
+                        <h3 class="modal__name">The Voice</h3>
+                        <p class="modal__info">
+                           I LOVE music. I can't sing but learning how to play the strings rock-and-roll style is definitely
+                           in my retirement bucket list. It's a joy for me to enjoy the talent of normal people who have
+                           incredible singing talents. I couldn't possibly pick a favorite contestant but
+                           two memorable people are Jordan Smith (USA) and Chike (NG). My favorite franchise,
+                           though, is The Voice Australia. They have amazing talent, the judges are incredible,
+                           the production is top-notch, and the winners are undisputable.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </article>
+
+            <article>
+               <!-- CARD PRODUCT -->
+               <div class="card__product">
+                  <img src="assets/img/afterhours/france.jpg" alt="image" class="card__img">
+   
+                  <div>
+                     <h3 class="card__name">France</h3>
+                  </div>
+               </div>
+
+               <!-- POPUP MODAL -->
+               <div class="modal">
+                  <div class="modal__card">
+                     <i class="ri-close-large-line modal__close"></i>
+
+                     <div>
+                        <h3 class="modal__name">France</h3>
+                        <p class="modal__info">
+                           Everyone who really knows me is probably wondering why this wasn't at the top
+                           of the list because I never shut up about France. It's my dream country - the
+                           art, the romance, the culture - I can't wait to eventually live there
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </article>
+
+            <article>
+               <!-- CARD PRODUCT -->
+               <div class="card__product">
+                  <img src="assets/img/afterhours/meat.jpg" alt="image" class="card__img">
+   
+                  <div>
+                     <h3 class="card__name">Meat</h3>
+                  </div>
+               </div>
+
+               <!-- POPUP MODAL -->
+               <div class="modal">
+                  <div class="modal__card">
+                     <i class="ri-close-large-line modal__close"></i>
+
+                     <div>
+                        <h3 class="modal__name">Meat</h3>
+                        <p class="modal__info">
+                           Beef, chicken, turkey, bush meat, suya, kilishi. Bring me any of these
+                           in unreasonably large amounts and that's the fastest way to become my best friend.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </article>
+
+         </div>
+      </section>
+      
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
 </html>
